@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemcard"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtZikr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="4dp"
+            android:ellipsize="none"
+            android:text=""
+            android:singleLine="false"
+            android:inputType="textMultiLine"
+            android:gravity="start"
+            android:freezesText="true"
+            android:breakStrategy="simple"
+            android:scrollHorizontally="false"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
